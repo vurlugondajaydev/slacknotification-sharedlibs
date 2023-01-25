@@ -23,5 +23,5 @@ def call(String buildStatus = 'STARTED') {
   }
 
   // Calling the slackSend function to Send notifications.
-  slackSend (color: colorCode, message: summary, channel: jenkins_slak_notifications)
+  slackSend (color: colorCode, message: summary)
 }
